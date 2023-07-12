@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+
+body {
+    background-color: black;
+}
+.rate-card {
+    width: 315px;
+    padding: 25px;
+    border-radius: 10px;
+    background-color: #212832;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -157px;
+    margin-top: -139px;
+    box-sizing: border-box;
+}
+
+.star-icon {
+    margin-bottom: 25px;
+}
+
+.star-icon img {
+    padding: 10px;
+    background-color: #272f34;
+    border-radius: 50%;
+}
+
+.title {
+    color: white;
+    font-family: 'Overpass', sans-serif;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.description {
+    color: hsl(217, 12%, 63%);
+    font-family: 'Overpass', sans-serif;
+    font-size: 11px;
+    line-height: 18px;
+}
+
+.content {
+    margin-bottom: 25px;
+}
+
+.number-container {
+    text-align: center;
+}
+
+.number-container div {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-color: #272f34;
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 10px;
+    box-sizing: border-box;
+    cursor: pointer;
+    color: hsl(217, 12%, 63%);
+    margin-right: 10px;
+}
+
+.number-container div:hover {
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+}
+
+.number-container .num-5 {
+    margin-right: 0px;
+}
+
+.number-container {
+    margin-bottom: 25px;
+}
+
+.submit a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Overpass', sans-serif;
+    font-size: 11px;
+    width: 100%;
+    padding: 10px 0px 10px 0px;
+    background-color: hsl(25, 97%, 53%);
+    display: block;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.submit a:hover {
+    background-color: white;
+    color: hsl(25, 97%, 53%);
+}
+
+
+
+/* submit style*/
+
+
+
+
+.thank-img {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.submit-text {
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.result {
+    width: 130px;
+    font-size: 11px;
+    color: hsl(25, 97%, 53%);
+    font-family: 'Overpass', sans-serif;
+    margin-bottom: 25px;
+    background-color: #262f38;
+    border-radius: 15px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.result div {
+    padding: 6px;
+}
